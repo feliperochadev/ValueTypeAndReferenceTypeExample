@@ -20,7 +20,7 @@ namespace ValueTypeAndReferenceTypeExampleMain
             }
             var val = listInt.First(x => x == 2);
             val = 4;
-            Console.WriteLine("Afer change value 2 to 4 into a variable");
+            Console.WriteLine("After change value 2 to 4 into a variable");
             foreach(var item in listInt)
             {
                 Console.WriteLine(item);
